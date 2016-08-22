@@ -15,7 +15,7 @@ class Banco {
     }
 
     /**
-     * Está Classe vai percorre o array de getDados() e salvar armazena o valor total de cada produto;
+     * Este método vai percorre o array de getDados() e salvar armazena o valor total de cada produto;
      */
     public function getValorTotal() {
         $this->valorTotal = 0;
@@ -30,7 +30,7 @@ class Banco {
     }
 
     /**
-     * seleciona() este método vai consulta no banco todos os produtos e armazena na variavel dados que por sua vez vai virar um array
+     * Este métodoo vai consulta no banco todos os produtos e armazena na variavel dados que por sua vez vai virar um array
      */
     public function seleciona() {
         $sql = "SELECT * FROM produtos";
@@ -41,7 +41,7 @@ class Banco {
     }
 
     /**
-     * seleciona() este método vai gravar no banco de dados o produto cadastrado
+     * Este método vai gravar no banco de dados o produto cadastrado
      */
     public function salvar($tabela, $dados) {
 
